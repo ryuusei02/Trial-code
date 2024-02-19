@@ -1,0 +1,101 @@
+background-image: url(ttk.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+<form>
+        <div>
+        <label for="name"> First name: </label>
+        <input type="text" id="name" name="name" placeholder="Kit Wendell" required>
+        
+        </div>
+        
+        <br>
+
+        <div>
+        <label for="lname"> Last name: </label>
+        <input type="text" id="lname" name="lname" placeholder="Pangan" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email"> Email: </label>
+            <input type="email" id="email" name="email" placeholder="@gmail.com" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pass"> Password: </label>
+            <input type="password" id="pass" name="pass" placeholder="123456" maxlength="12" required>
+            </div>
+
+     <br>
+
+     <div>
+        <label for="tel"> Phone number: </label>
+        <input type="tel" id="tel" name="tel" placeholder="0123412341" maxlength="11">
+     </div>
+
+        <br>
+
+        <div>
+            <label for="date"> Birthdate: </label>
+            <input type="date" id="date" name="date" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="title">Gender:</label>
+
+            <label for="Male"> Male</label>
+            <input type="radio" id="Male" name="title" value="Male">
+
+            <label for="fmale"> Female</label>
+            <input type="radio" id="fmale" name="title" value="fmale">
+
+        </div>
+
+        <br>
+
+     <div>
+        <input id="p1" type="reset">
+        <input id="p2" type="submit">
+     </div>
+
+
+        
+    </form>
+
+</body>
+</html>
+
+    form{
+        text-align: left;
+        color: black;
+        font-size: 50px ;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        border-style: solid;
+        border-color: yellow;
+        border-radius: 5px;
+        padding: 10px;
+    
+    }
+    #p1{
+      
+        font-size: 50px;
+    }
+
+    #p2{
+        font-size: 50px;
+    }
+    input{
+        font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-color: aqua;
+        color: black;
+        background-color: lightcyan;
